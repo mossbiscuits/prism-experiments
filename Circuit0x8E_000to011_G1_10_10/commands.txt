@@ -1,0 +1,2 @@
+prism Circuit0x8E_000to011_G1_10_10.sm -prop Circuit0x8E_G1.csl -const kd_PhlF=,kd_YPF=,kd_HlyIIR=,kd_BetI=,kd_AmtR= -exportresults stdout
+prism Circuit0x8E_000to011_G1_10_10_bound.sm -prop Circuit0x8E_G1.csl -const kd_PhlF=,kd_YPF=,kd_HlyIIR=,kd_BetI=,kd_AmtR= -exportresults stdout
