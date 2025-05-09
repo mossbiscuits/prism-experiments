@@ -1,0 +1,33 @@
+========================================================================================
+[1mSTAMINA -- The STochiastic Approximate Model-checker, for INfinite-state Analysis[0m
+========================================================================================
+(C) 2023 Fluent Verification Research Group -- Licensed freely under the GPLv3 license
+Version: 2.2.5
+Developers: J Jeppson, Z Zhang, R Roberts, T Neupane, and others.
+Website: https://staminachecker.org
+Repository: https://github.com/fluentverification/stamina-storm
+========================================================================================
+Model checker: Storm (https://stormchecker.org) - Licensed under the GPLv3
+Storm Authors: C Hensel, S Junges, J Katoen, T Quatmann, M Volk
+========================================================================================
+ WARN (Program.cpp:238): The input model is a CTMC, but uses probabilistic commands like they are used in PRISM. Consider rewriting the commands to use Markovian commands instead.
+ WARN (Program.cpp:1633): The model uses synchronizing Markovian commands. This may lead to unexpected verification results, because of unclear semantics.
+ WARN (Program.cpp:1633): The model uses synchronizing Markovian commands. This may lead to unexpected verification results, because of unclear semantics.
+ WARN (Program.cpp:1633): The model uses synchronizing Markovian commands. This may lead to unexpected verification results, because of unclear semantics.
+Labeling:
+4 labels
+   * Absorbing -> 1 item(s)
+   * deadlock -> 1 item(s)
+   * init -> 1 item(s)
+   * (YFP_protein < 30) -> 1108 item(s)
+
+========================================================================================
+RESULTS
+========================================================================================
+Property: "1": P=? [true U[0, 1000] (YFP_protein < 30)];
+Probability Minimum: 0.677866067931
+Probability Maximum: 0.677868196489
+Window: 0.000002128558
+========================================================================================
+Model: 12210 states with 1 initial.
+========================================================================================

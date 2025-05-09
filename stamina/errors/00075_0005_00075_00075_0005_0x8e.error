@@ -1,0 +1,27 @@
+[1m[34m[INFO]: [0m[0mStarting STAMINA with kappa = 1.000000 and reduction factor = 1.250000
+[1m[34m[INFO]: [0m[0mStamina version is: 0.2.5
+[1m[33m[WARNING]: [0m[0mFormula "true U[0, 1000] (YFP_protein < 30)" was not an until formula
+[1m[33m[WARNING]: [0m[0mFormula "true U[0, 1000] (YFP_protein < 30)" was not an until formula
+[1m[34m[INFO]: [0m[0mCreated min prop: "1_min": P=? [true U(0, 1000) ((!"Absorbing") & (YFP_protein < 30))]; // Added by STAMINA
+[1m[34m[INFO]: [0m[0mCreated max prop: "1_max": P=? [true U(0, 1000) ("Absorbing" | (YFP_protein < 30))]; // Added by STAMINA
+[1m[34m[INFO]: [0m[0mAttempting to convert formula to expression:
+	P=? [true U[0, 1000] (YFP_protein < 30)]
+[1m[34m[INFO]: [0m[0mApproximation [Refine Iterations: 0, kappa = 1.000000]
+[1m[34m[INFO]: [0m[0mUsing STAMINA 2.5 Algorithm
+[1m[34m[INFO]: [0m[0mFinished state space truncation.
+	Explored 10698 states in total.
+	Got 99030 transitions.
+[1m[34m[INFO]: [0m[0mAt this refine iteration, the following result values are found:
+	Minimum Results: 0.230013
+	Maximum Results: 0.230015
+This gives us a window of 0.000002
+[1m[34m[INFO]: [0m[0mThe following summary shows the time for each step:
+	Time taken for model building: 4.970136295000 s
+	Time taken for model checking: 0.197872922000 s
+	Taken total time: 5.168009217000 s
+
+[1m[34m[INFO]: [0m[0mFinished checking property: 1
+	[1m[35mProbability Minimum: [0m[0m0.230012800473
+	[1m[35mProbability Maximum: [0m[0m0.230014946171
+
+[1m[32m[MESSAGE]: [0m[0mFinished running!
